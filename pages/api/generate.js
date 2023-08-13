@@ -1,5 +1,7 @@
 import { Configuration, OpenAIApi } from "openai";
 
+// https://platform.openai.com/docs/quickstart/build-your-application
+
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
